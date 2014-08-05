@@ -1,19 +1,19 @@
 //
-//  InsertionSort.m
+//  BubbleSort2.m
 //  TestSort
 //
 //  Created by Joe Tam on 8/3/14.
 //  Copyright (c) 2014 joe. All rights reserved.
 //
 
-#import "InsertionSort.h"
+#import "BubbleSort2.h"
 
-@interface InsertionSort()
+@interface BubbleSort2()
 
 @property (nonatomic, strong) NSMutableArray *resultArray;
 @end
 
-@implementation InsertionSort
+@implementation BubbleSort2
 
 - (NSArray *)sort:(NSArray *)list
 {
@@ -37,7 +37,7 @@
 
 - (NSString *)sortMethodName
 {
-    return @"Insertion Sort";
+    return @"Bubble 2";
 }
 
 @end

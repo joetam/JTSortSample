@@ -8,7 +8,7 @@
 
 #import "SKViewController.h"
 #import "BubbleSort.h"
-#import "InsertionSort.h"
+#import "BubbleSort2.h"
 
 @interface SKViewController ()
 
@@ -25,9 +25,9 @@
     self.sortMethod = [[BubbleSort alloc] init];
     
     // setup sort methods
-    InsertionSort *insertionSort = [[InsertionSort alloc] init];
     BubbleSort *bubbleSort = [[BubbleSort alloc] init];
-    self.sortMethods = [NSArray arrayWithObjects:insertionSort, bubbleSort, nil];
+    BubbleSort2 *bubbleSort2 = [[BubbleSort2 alloc] init];
+    self.sortMethods = [NSArray arrayWithObjects:bubbleSort, bubbleSort2, nil];
     self.sortMethod = [self.sortMethods objectAtIndex:0];
     
     // segmented control

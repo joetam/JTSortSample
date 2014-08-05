@@ -32,7 +32,7 @@
 
 - (NSString *)sortMethodName
 {
-    return @"Bubble Sort";
+    return @"Bubble 1";
 }
 
 @end

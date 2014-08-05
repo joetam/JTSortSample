@@ -23,7 +23,7 @@
 		6D8A59EA198F3148003D62A6 /* JTSortSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A59DE198F3148003D62A6 /* JTSortSample-Info.plist */; };
 		6D8A59EB198F3148003D62A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59E0198F3148003D62A6 /* main.m */; };
 		6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59EE198F31A9003D62A6 /* BubbleSort.m */; };
-		6D8A59F2198F31A9003D62A6 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59F0198F31A9003D62A6 /* InsertionSort.m */; };
+		6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		6D8A59E0198F3148003D62A6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D8A59ED198F31A9003D62A6 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		6D8A59EE198F31A9003D62A6 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
-		6D8A59EF198F31A9003D62A6 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
-		6D8A59F0198F31A9003D62A6 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		6D8A59EF198F31A9003D62A6 /* BubbleSort2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort2.h; sourceTree = "<group>"; };
+		6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +157,8 @@
 			children = (
 				6D8A59ED198F31A9003D62A6 /* BubbleSort.h */,
 				6D8A59EE198F31A9003D62A6 /* BubbleSort.m */,
-				6D8A59EF198F31A9003D62A6 /* InsertionSort.h */,
-				6D8A59F0198F31A9003D62A6 /* InsertionSort.m */,
+				6D8A59EF198F31A9003D62A6 /* BubbleSort2.h */,
+				6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */,
 			);
 			path = sorts;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8A59E6198F3148003D62A6 /* SKAppDelegate.m in Sources */,
-				6D8A59F2198F31A9003D62A6 /* InsertionSort.m in Sources */,
+				6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */,
 				6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */,
 				6D8A59E7198F3148003D62A6 /* SKViewController.m in Sources */,
 				6D8A59EB198F3148003D62A6 /* main.m in Sources */,
