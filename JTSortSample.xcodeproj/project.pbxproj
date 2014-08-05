@@ -25,6 +25,7 @@
 		6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59EE198F31A9003D62A6 /* BubbleSort.m */; };
 		6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */; };
 		D8AC396919907E8600462DA7 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AC396819907E8600462DA7 /* InsertionSort.m */; };
+		D8AC396C1990895B00462DA7 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AC396B1990895B00462DA7 /* SelectionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort2.m; sourceTree = "<group>"; };
 		D8AC396719907E8600462DA7 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		D8AC396819907E8600462DA7 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		D8AC396A1990895B00462DA7 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		D8AC396B1990895B00462DA7 /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */,
 				D8AC396719907E8600462DA7 /* InsertionSort.h */,
 				D8AC396819907E8600462DA7 /* InsertionSort.m */,
+				D8AC396A1990895B00462DA7 /* SelectionSort.h */,
+				D8AC396B1990895B00462DA7 /* SelectionSort.m */,
 			);
 			path = sorts;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AC396C1990895B00462DA7 /* SelectionSort.m in Sources */,
 				6D8A59E6198F3148003D62A6 /* SKAppDelegate.m in Sources */,
 				6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */,
 				6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */,
