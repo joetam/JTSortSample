@@ -10,4 +10,24 @@
 
 @implementation InsertionSort
 
+- (NSArray *)sort:(NSArray *)list
+{
+    NSMutableArray *result = [[NSMutableArray alloc] init];
+    
+    for (NSNumber *num in list) {
+        int i = result.count;
+        while (i > 0 && [num compare:[result objectAtIndex:i-1]] == NSOrderedAscending) {
+            i--;
+        }
+//        if (i < 0) i = 0;
+        [result insertObject:num atIndex:i];
+    }
+    return result;
+}
+
+- (NSString *)sortMethodName
+{
+    return @"Insertion";
+}
+
 @end
