@@ -12,6 +12,6 @@
 #import <Foundation/Foundation.h>
 #import "ListSort.h"
 
-@interface BubbleSort2 : NSObject <ListSortDelegate>
+@interface BubbleSort2 : ListSort
 
 @end

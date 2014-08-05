@@ -24,6 +24,7 @@
 		6D8A59EB198F3148003D62A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59E0198F3148003D62A6 /* main.m */; };
 		6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59EE198F31A9003D62A6 /* BubbleSort.m */; };
 		6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */; };
+		D8AC396919907E8600462DA7 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AC396819907E8600462DA7 /* InsertionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		6D8A59EE198F31A9003D62A6 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
 		6D8A59EF198F31A9003D62A6 /* BubbleSort2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort2.h; sourceTree = "<group>"; };
 		6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort2.m; sourceTree = "<group>"; };
+		D8AC396719907E8600462DA7 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		D8AC396819907E8600462DA7 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				6D8A59EE198F31A9003D62A6 /* BubbleSort.m */,
 				6D8A59EF198F31A9003D62A6 /* BubbleSort2.h */,
 				6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */,
+				D8AC396719907E8600462DA7 /* InsertionSort.h */,
+				D8AC396819907E8600462DA7 /* InsertionSort.m */,
 			);
 			path = sorts;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				6D8A59E7198F3148003D62A6 /* SKViewController.m in Sources */,
 				6D8A59EB198F3148003D62A6 /* main.m in Sources */,
 				6D8A59E5198F3148003D62A6 /* ListSort.m in Sources */,
+				D8AC396919907E8600462DA7 /* InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

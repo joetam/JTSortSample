@@ -15,6 +15,6 @@
 
 @end
 
-@interface ListSort : NSObject
+@interface ListSort : NSObject <ListSortDelegate>
 
 @end
