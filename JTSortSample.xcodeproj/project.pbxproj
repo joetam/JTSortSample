@@ -24,6 +24,7 @@
 		6D8A59EB198F3148003D62A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59E0198F3148003D62A6 /* main.m */; };
 		6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59EE198F31A9003D62A6 /* BubbleSort.m */; };
 		6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */; };
+		D800423D19967D7300775DC2 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D800423C19967D7300775DC2 /* QuickSort.m */; };
 		D8AC396919907E8600462DA7 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AC396819907E8600462DA7 /* InsertionSort.m */; };
 		D8AC396C1990895B00462DA7 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AC396B1990895B00462DA7 /* SelectionSort.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		6D8A59EE198F31A9003D62A6 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
 		6D8A59EF198F31A9003D62A6 /* BubbleSort2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort2.h; sourceTree = "<group>"; };
 		6D8A59F0198F31A9003D62A6 /* BubbleSort2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort2.m; sourceTree = "<group>"; };
+		D800423B19967D7300775DC2 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		D800423C19967D7300775DC2 /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		D8AC396719907E8600462DA7 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		D8AC396819907E8600462DA7 /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		D8AC396A1990895B00462DA7 /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 				D8AC396819907E8600462DA7 /* InsertionSort.m */,
 				D8AC396A1990895B00462DA7 /* SelectionSort.h */,
 				D8AC396B1990895B00462DA7 /* SelectionSort.m */,
+				D800423B19967D7300775DC2 /* QuickSort.h */,
+				D800423C19967D7300775DC2 /* QuickSort.m */,
 			);
 			path = sorts;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				6D8A59E6198F3148003D62A6 /* SKAppDelegate.m in Sources */,
 				6D8A59F2198F31A9003D62A6 /* BubbleSort2.m in Sources */,
 				6D8A59F1198F31A9003D62A6 /* BubbleSort.m in Sources */,
+				D800423D19967D7300775DC2 /* QuickSort.m in Sources */,
 				6D8A59E7198F3148003D62A6 /* SKViewController.m in Sources */,
 				6D8A59EB198F3148003D62A6 /* main.m in Sources */,
 				6D8A59E5198F3148003D62A6 /* ListSort.m in Sources */,
