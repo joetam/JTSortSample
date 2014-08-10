@@ -13,22 +13,66 @@
 - (NSArray *)sort:(NSArray *)list
 {
     NSMutableArray *result = [NSMutableArray arrayWithArray:list];
-    
+    [self quickSort:result lo:0 high:list.count-1];
     return result;
 }
 
-void partition(NSMutableArray *list) {
-    if (list.count <= 1) return;
-    int p = 0;
-    int left, right;
-    for (left = 1, right = list.count-1; left < right;) {
-        if ([list[left] compare:list[p]] == NSOrderedDescending && [list[right] compare:list[p]] == NSOrderedSame) {
-            swap(list,left,right);
-        }
+
+NSString* printList(NSMutableArray *list)
+{
+    NSString *str = @"";
+    for (id obj in list) {
+        str = [str stringByAppendingString:[NSString stringWithFormat:@" %@", obj]];
+    }
+    return str;
+}
+
+
+- (void)quickSort:(NSMutableArray *)list lo:(int) lo high:(int) high
+{
+    if (lo < high) {
+        int pivot = partition(list, lo, high);
+        [self quickSort:list lo:lo high:pivot-1];
+        [self quickSort:list lo:pivot+1 high:high];
     }
 }
 
-void swap(NSMutableArray* list, int i, int j)
+int partition(NSMutableArray *list, int lo, int high)
+{
+    int i = lo;
+    int j = high;
+    
+    int count = j - i + 1;
+    
+    if (count <=1) {
+        return i;
+    }
+    int p = i+(floor)((j-i)/2);
+    NSNumber *pNum = list[p];
+    
+    // move the pivot to end of array and exclude from the partition
+    swap2(list, p, high);
+    j = j-1;
+    
+    // partition
+    while (i < j) {
+        while ([list[i] compare:pNum] == NSOrderedAscending) {
+            i++;
+        }
+        while (([list[j] compare:pNum] == NSOrderedDescending ||
+            [list[j] compare:pNum] == NSOrderedSame) && j > 0) {
+            j--;
+        }
+        if (i < j) {
+            swap2(list, i, j);
+        }
+    }
+    // put pivot back
+    swap2(list,i,high);
+    return i;
+}
+
+void swap2(NSMutableArray* list, int i, int j)
 {
     id obj = list[j];
     list[j] = list[i];

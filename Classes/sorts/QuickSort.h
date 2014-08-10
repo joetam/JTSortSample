@@ -8,6 +8,8 @@
 
 #import "ListSort.h"
 
+int partition(NSMutableArray* list, int lo, int high);
+
 @interface QuickSort : ListSort
 
 @end
