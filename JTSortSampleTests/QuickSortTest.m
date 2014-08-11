@@ -23,22 +23,23 @@
     [super setUp];
     self.partitionInput = [[NSMutableArray alloc] init];
     self.sortInput = [[NSMutableArray alloc] init];
-//    for (int i = 0; i < 24; i++) {
-//        NSNumber *randNum = [NSNumber numberWithInt:rand() % 100];
-//        [self.partitionInput addObject:randNum];
-//    }
+    for (int i = 0; i < 500; i++) {
+        NSNumber *randNum = [NSNumber numberWithInt:rand() % 100];
+        [self.partitionInput addObject:randNum];
+    }
     
-    self.partitionInput = [NSMutableArray arrayWithObjects:@1,@10,@13,@15,@5,@2,@100,@0,@12, nil];
+//    self.partitionInput = [NSMutableArray arrayWithObjects:@1,@10,@13,@15,@5,@2,@100,@0,@12, nil];
     
     
 //    self.partitionInput = [NSMutableArray arrayWithObjects:@1,@10,@13,@15,@12,@2,@100,@0,@5, nil];
 
 //    self.partitionInput = [NSMutableArray arrayWithObjects:@1,@10,@13,@5,@2,@100,@0,@1, nil];    
     
-    for (int i = 0; i < 16; i++) {
+    for (int i = 0; i < 15; i++) {
         NSNumber *randNum = [NSNumber numberWithInt:rand() % 100];
         [self.sortInput addObject:randNum];
     }
+//    self.sortInput = [NSMutableArray arrayWithObjects:@0, @4, nil];
 }
 
 - (void)tearDown

@@ -47,12 +47,17 @@ int partition(NSMutableArray *list, int lo, int high)
     if (count <=1) {
         return i;
     }
+    
     int p = i+(floor)((j-i)/2);
     NSNumber *pNum = list[p];
     
     // move the pivot to end of array and exclude from the partition
-    swap2(list, p, high);
-    j = j-1;
+    // ...but only if the list has more than two elements (otherwise we are swapping unnecessarily and also the j-1 below
+    // causes us to skip the while loop which means we are doing two swaps and not checking the order
+    if (count > 2) {
+        swap2(list, p, high);
+        j = j-1;
+    }
     
     // partition
     while (i < j) {
@@ -68,7 +73,7 @@ int partition(NSMutableArray *list, int lo, int high)
         }
     }
     // put pivot back
-    swap2(list,i,high);
+    if (count > 2) swap2(list,i,high);
     return i;
 }
 
